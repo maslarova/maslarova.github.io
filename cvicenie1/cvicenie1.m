@@ -3,7 +3,7 @@
 matice;
 %% ULOHA 2
 A'*B
-%Nie je mozne nasobit po prvkoch, nemaju rovnaku velkost
+%Nie je mozne nasobit po prvkoch, nemaju rovnaky rozmer
 %% ULOHA 3
 W = [A(1,3);B(2,2);X(4)]
 %% ULOHA 4
