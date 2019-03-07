@@ -1,0 +1,20 @@
+%Riesime sustavu A*x=y s maticou A v trojuholnikovom tvare
+A = [8,-1,-2;0,55,-10;0,0,1]; %Matica v trojuholnikovom tvare
+y = [0,80,3]'; %Vektor y
+
+x = NaN(3,1); %Zostrojime vektor x s 3 prvkami nedefinovanych hodnot
+% Hodi sa to na predalokovanie, inak by sme museli velkost vektora stale
+% rozsirovat, co je nevyhodne
+n = length(x); %dlzka vektoru x
+
+%Telo cyklu, ktory postupne pocita zlozky vektoru x3,x2,x1
+for k = length(x):-1:1 %Iterujeme od posledneho prvku vektoru
+    sum = 0;
+    for j = k+1:length(x)
+        sum = sum+x(j)*A(k,j);
+    end    
+    x(k) = (y(k)-sum)/A(k,k);
+end    
+    
+x % Vypise x
+linsolve(A,y) %Matlabovske riesenie
