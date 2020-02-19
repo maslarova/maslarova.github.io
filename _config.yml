@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Numerické metody
 email: 
-description: Na tejto stránke nájdete materiály pre cvičenia z predmetu Numerické metody v letnom semestri 2018/2019 na FJFI ČVUT v Praze.
+description: Na tejto stránke nájdete materiály pre cvičenia z predmetu Numerické metody v letnom semestri 2019/2020 na FJFI ČVUT v Praze.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
