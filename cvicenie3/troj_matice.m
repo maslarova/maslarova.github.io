@@ -9,11 +9,11 @@ n = length(x); %dlzka vektoru x
 
 %Telo cyklu, ktory postupne pocita zlozky vektoru x3,x2,x1
 for k = length(x):-1:1 %Iterujeme od posledneho prvku vektoru
-    sum = 0;
+    suma = 0;
     for j = k+1:length(x)
-        sum = sum+x(j)*A(k,j);
+        suma = suma+x(j)*A(k,j);
     end    
-    x(k) = (y(k)-sum)/A(k,k);
+    x(k) = (y(k)-suma)/A(k,k);
 end    
     
 x % Vypise x
