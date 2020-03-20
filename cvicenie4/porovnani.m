@@ -20,8 +20,8 @@ end
 
 % JACOBI
 L = tril(A,-1); %prvky pod diagonalou, inak nuly
-R = triu(A,1);  %prvky nad diagonalou, inak nuly
-D = A-L-R;      %prvky na diagonale, inak nuly
+U = triu(A,1);  %prvky nad diagonalou, inak nuly
+D = A-L-U;      %prvky na diagonale, inak nuly
 	
 B = %DOPLNTE
 c = %DOPLNTE
