@@ -229,7 +229,8 @@ pre {
  * Tables
  */
 table {
-  margin-bottom: 5px;
+  margin-bottom: 2px;
+  width: 25%;
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
