@@ -232,6 +232,8 @@ table {
   margin-bottom: $spacing-unit;
   width: 25%;
   height: 25%;
+  width: 300px;
+  height: 200px; 
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
@@ -256,6 +258,11 @@ tr td:first-child:hover ~ td {
 }
 tr td:first-child:hover {
   background: green;
+}
+
+table.agenda tr:nth-child(1) td:first-child {
+  background: $grey-color-light;
+  color: white;
 }
 
 }
