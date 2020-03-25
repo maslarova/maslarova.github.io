@@ -230,18 +230,18 @@ pre {
  */
 table {
   margin-bottom: 2px;
-  width: 25%;
+  width: 27%;
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: 1px solid $green;
   th, td {
     padding: ($spacing-unit / 10) ($spacing-unit / 10);
   }
   th {
     background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    border: 1px solid darken($green, 4%);
+    border-bottom-color: darken($green, 12%);
   }
   td {
     border: 1px solid $grey-color-light;
