@@ -236,7 +236,7 @@ table {
   border-collapse: collapse;
   border: 1px solid green;
   th, td {
-    padding: ($spacing-unit / 9) ($spacing-unit / 9);
+    padding: ($spacing-unit / 10) ($spacing-unit / 10);
   }
   th {
     background-color: lighten(green, 3%);
