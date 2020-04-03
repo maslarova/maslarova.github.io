@@ -42,4 +42,4 @@ plot(x, a*x.^2+b*x+c,'linewidth',2,'color','r');
 
 xlabel('x');
 ylabel('y');
-title('f(x)=ax+b');
+title('f(x)=ax^2+b');
