@@ -1,0 +1,125 @@
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<style>
+body {
+    padding: 4px;
+}
+.calculated-width {
+    width: -moz-calc(100% - 100px);
+    width: -webkit-calc(100% - 100px);
+    width: calc(100% - 100px);
+    display: inline-block;
+}
+A{
+	font-size:20px;
+}
+.row {
+	vertical-align: top;
+	padding-top: 4px;
+}
+.td{
+}
+.row-odd{
+    background: #DDDDDD;
+}
+.row-even{
+    background: #FEFEFE;
+}
+.dataset-row{
+    vertical-align: top;
+}
+.dataset-header{
+    font-weight: bold;
+    background-color: #AAAAAA;
+    text-align: center;
+}
+.dataset-tag:hover{
+    background-color: #3E6D8E;
+    color: #E0EAF1;
+}
+.dataset-tag{
+    background-color: #E0EAF1;
+    color: #3E6D8E;
+    border-bottom: 1px solid #37607D;
+    border-right: 1px solid #37607D;
+    text-decoration: none;
+    padding: 3px 4px 3px 4px;
+    margin: 2px 2px 2px 0;
+    font-size: 90%;
+    line-height: 2.4;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.dataset-rows, .dataset-cols, .dataset-download{
+    text-align: center;
+    vertical-align: top;
+}
+.dataset-tag-left{
+    float: left;
+}
+.dataset-tag-right{
+    float: right;
+}
+.dataset-results{
+    display: block;
+}
+
+#dataset-content{
+    float: left;
+    width: 65%;
+}
+#dataset-download{
+    width: 25%;
+    float: right;
+}
+.dataset-title{
+    width: 30%;
+    vertical-align: top;
+}
+</style>
+<title>"least-squares" datasets -- OpenMV.net</title>
+</head>
+<body>
+<div class="well calculated-width">
+<h1>OpenMV.net Datasets</h1>
+
+<div id="special_message"></div>
+
+
+<h3>Showing data sets with "least-squares" tag</h3>
+<span class="dataset-tag-right"><a href="/">Back to all datasets</a></span>
+<br>
+<span class="dataset-tag-left">Least squares modelling</span>
+
+
+<br>
+<div class="dataset-results">
+
+<table class="wikitable sortable">
+<thead class="dataset-header">
+    <td style="padding-right: 10px;">Name</td>
+    <td>Description</td>
+    <td style="padding-left: 10px; padding-right: 10px;" id="rows">Rows</td>
+    <td style="padding-left: 10px; padding-right: 10px;" id="cols">Columns</td>
+    <!-- <td>Download</td> -->
+    <td style="text-align:left">Tags</td>
+</thead>
+
+<tr class="row-odd dataset-row"><td style="padding-right: 10px;" width="20%"><a href="/info/batch-yield-and-purity">Batch yield and purity</a><td width="80%">The two columns in the data set are: <ol><li> the percentage yield from a batch reactor, and <li> the purity of the feedstock.</ol><p>The feedstock is what we add to the reactor, and the yield is measured after the reaction is completed.
+
+<p>The cause-and-effect direction is that the purity of the feedstock has (potential) impact on the yield.</td><td class="dataset-rows" width="8%">241</td><td class="dataset-cols" width="10%">2</td><!-- <td class="dataset-download"><a href="/file/"></a> --><!--</td> --><td><span><a href="/tag/regression" class="dataset-tag" title="Data sets for regression models">regression</a></span><span><a href="/tag/least-squares" class="dataset-tag" title="Least squares modelling">least-squares</a></span><span><a href="/tag/multivariate" class="dataset-tag" title="Multivariate data sets">multivariate</a></span></td></tr>
+
+<tr class="row-even dataset-row"><td style="padding-right: 10px;" width="20%"><a href="/info/unlimited-time-test">Unlimited time test</a><td width="80%">The grades from a midterm exam, as well as the time taken by the student to write the exam. It was an "infinite" time midterm, so there was no time pressure to finish within the allocated period.</td><td class="dataset-rows" width="8%">80</td><td class="dataset-cols" width="10%">2</td><!-- <td class="dataset-download"><a href="/file/"></a> --><!--</td> --><td><span><a href="/tag/univariate" class="dataset-tag" title="Univariate data sets">univariate</a></span><span><a href="/tag/regression" class="dataset-tag" title="Data sets for regression models">regression</a></span><span><a href="/tag/least-squares" class="dataset-tag" title="Least squares modelling">least-squares</a></span></td></tr>
+
+<tr class="row-odd dataset-row"><td style="padding-right: 10px;" width="20%"><a href="/info/unlimited-time-test-2">Unlimited time test 2</a><td width="80%">The grades from a midterm exam, as well as the time taken by the student to write the exam. It was an "infinite" time midterm, so there was no time pressure to finish within the allocated period. The test results were from 2013.</td><td class="dataset-rows" width="8%">61</td><td class="dataset-cols" width="10%">2</td><!-- <td class="dataset-download"><a href="/file/"></a> --><!--</td> --><td><span><a href="/tag/univariate" class="dataset-tag" title="Univariate data sets">univariate</a></span><span><a href="/tag/regression" class="dataset-tag" title="Data sets for regression models">regression</a></span><span><a href="/tag/least-squares" class="dataset-tag" title="Least squares modelling">least-squares</a></span></td></tr>
+
+<tr class="row-even dataset-row"><td style="padding-right: 10px;" width="20%"><a href="/info/unlimited-time-test-3">Unlimited time test 3</a><td width="80%">The grades from a midterm exam, as well as the time taken by the student to write the exam. It was an "infinite" time midterm, so there was no time pressure to finish within the allocated period. The test results were from 2013.</td><td class="dataset-rows" width="8%">89</td><td class="dataset-cols" width="10%">2</td><!-- <td class="dataset-download"><a href="/file/"></a> --><!--</td> --><td><span><a href="/tag/univariate" class="dataset-tag" title="Univariate data sets">univariate</a></span><span><a href="/tag/regression" class="dataset-tag" title="Data sets for regression models">regression</a></span><span><a href="/tag/least-squares" class="dataset-tag" title="Least squares modelling">least-squares</a></span></td></tr>
+
+</table>
+
+
+</div>
+
+</div>
+<div>(c) Kevin Dunn, <a style="font-size: 14px;"href="http://learnche.org">learnche.org</a></div>
+</body>
