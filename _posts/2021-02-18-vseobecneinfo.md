@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Všeobecné informácie ku cvičeniam"
-date:   2021-02-18 13:26:13 +0100
+date:   2021-02-17 13:26:13 +0100
 ---
 <b>Podmienky na splnenie zápočtu<b/> <br>
 
