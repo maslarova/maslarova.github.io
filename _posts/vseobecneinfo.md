@@ -3,7 +3,8 @@ layout: post
 title:  "Všeobecné informácie ku cvičeniam"
 date:   2021-02-18 13:26:13 +0100
 ---
-<b>Podmienky na splnenie zápočtu<b/>
+<b>Podmienky na splnenie zápočtu<b/> <br/>
+
 Posledný týždeň v semestri bude kontrola dochádzkových úloh.
 - Odovzdanie 10/12 a viac dochádzkových úloh = automatické uznanie zápočtu 
 - Pri splnení 9/12 dochádzkových úloh = študent dostane 1 extra zápočtovú úlohu, po jej vypracovaní dostane zápočet
