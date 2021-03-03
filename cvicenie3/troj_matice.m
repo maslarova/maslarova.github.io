@@ -8,9 +8,9 @@ x = NaN(3,1); %Zostrojime vektor x s 3 prvkami nedefinovanych hodnot
 n = length(x); %dlzka vektoru x
 
 %Telo cyklu, ktory postupne pocita zlozky vektoru x3,x2,x1
-for k = length(x):-1:1 %Iterujeme od posledneho prvku vektoru
+for k = n:-1:1 %Iterujeme od posledneho prvku vektoru
     suma = 0;
-    for j = k+1:length(x)
+    for j = k+1:n
         suma = suma+x(j)*C(k,j);
     end    
     x(k) = (d(k)-suma)/C(k,k);
