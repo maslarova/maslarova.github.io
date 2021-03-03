@@ -1,6 +1,6 @@
-%Riesime sustavu A*x=y s maticou A v trojuholnikovom tvare
-A = [8,-1,-2;0,55,-10;0,0,1]; %Matica v trojuholnikovom tvare
-b = [0,80,3]'; %Vektor y
+%Riesime sustavu C*x=d s maticou C v trojuholnikovom tvare
+C = [8,-1,-2;0,55,-10;0,0,1]; %Matica v trojuholnikovom tvare
+d = [0,80,3]'; %Vektor d
 
 x = NaN(3,1); %Zostrojime vektor x s 3 prvkami nedefinovanych hodnot
 % Hodi sa to na predalokovanie, inak by sme museli velkost vektora stale
@@ -11,10 +11,10 @@ n = length(x); %dlzka vektoru x
 for k = length(x):-1:1 %Iterujeme od posledneho prvku vektoru
     suma = 0;
     for j = k+1:length(x)
-        suma = suma+x(j)*A(k,j);
+        suma = suma+x(j)*C(k,j);
     end    
-    x(k) = (b(k)-suma)/A(k,k);
+    x(k) = (d(k)-suma)/C(k,k);
 end    
     
 x % Vypise x
-linsolve(A,b) %Matlabovske riesenie
+C\d %Matlabovske riesenie
