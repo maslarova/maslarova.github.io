@@ -18,7 +18,7 @@ My research interests include laser-driven plasma-based particle accelerators an
 
 Research highlights:
   - <b>Creation and generation with next-generation multi-PW laser pulses</b>
-  - Kick the electrons at the plasma grid
+  - <strong>Kick the electrons at the plasma grid</strong>
   - Let electrons wiggle more
   - Trap electrons with an unconventional laser pulse
 
