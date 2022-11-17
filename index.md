@@ -14,8 +14,6 @@ My research interests include laser-driven plasma-based particle accelerators an
 
 <!-- 
 #This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
--->
-</p>
 
 Research highlights:
   - <b>Creation and generation with next-generation multi-PW laser pulses</b>
@@ -37,3 +35,4 @@ Current employers:
   - Institute of Plasma Physics of Czech Academy of Sciences since 2017
   - Faculty of Nuclear Sciences and Physical Engineering of Czech Technical University in Prague
 
+-->
