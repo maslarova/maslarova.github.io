@@ -4,6 +4,7 @@ profile_picture:
   src: fot_EPP.jpg
   alt: website picture
 ---
+<img src="fot_EPP.jpg" alt="alt"> 
 
 <p>
  Welcome! My name is Dominika Maslarova. I am a PhD student of Physical Engineering at the Faculty of Nuclear Sciences and Physical Engineering.
