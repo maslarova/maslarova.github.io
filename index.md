@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: /fot_EPP.jpg
+  src: ./fot_EPP.jpg
   alt: website picture
 ---
 
