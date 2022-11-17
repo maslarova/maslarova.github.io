@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: ./fot_EPP.jpg
+  src: fot_EPP.jpg
   alt: website picture
 ---
 
@@ -25,5 +25,5 @@ Research highlights:
 
 Current employers:
   - Institute of Plasma Physics of Czech Academy of Sciences since 2017
-  - title: Faculty of Nuclear Sciences and Physical Engineering of Czech Technical University in Prague
+  - Faculty of Nuclear Sciences and Physical Engineering of Czech Technical University in Prague
 
