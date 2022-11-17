@@ -4,16 +4,6 @@ profile_picture:
   src: "foto.jpg"
   alt: website picture
 ---
-<div class="container">
-   <div class="image">
-      <img src="foto.jpg" alt="alt">
-      </div>
-    </div>
-<p>
-
-<p float="right">
-  <img src="foto.jpg" />
-</p>
 
 <p float="left">
  Welcome! My name is Dominika Maslarova. I am a PhD student of Physical Engineering at the Faculty of Nuclear Sciences and Physical Engineering.
