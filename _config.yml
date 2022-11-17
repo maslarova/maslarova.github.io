@@ -13,32 +13,32 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: Work
-    - name: Blog
+    - name: Numerické metody (teaching classes at FNSPE CTU)
+#    - name: Blog
 
 footer:
   show_powered_by: true
   contact:
     - name: Email
       value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
-    - name: WeChat
-      value: YourWeChatUsername
-      link: "#"
+      link: mailto:maslarova@ipp.cas.cz
+#    - name: WeChat
+#      value: YourWeChatUsername
+#      link: "#"
   follow:
     - name: Twitter
       link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
+      username: "@dominikaMasli"
+#    - name: Facebook
+#      link: http://facebook.com/YourFacebookUsername
     - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+      link: https://www.linkedin.com/in/dominika-maslarova-6b5257257/
     - name: GitHub
-      link: http://github.com/YourGitHubUsername
+      link: http://maslarova
     - name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
-    - name: RSS
-      link: /feed.xml
+#      link: https://dribbble.com/YourDribbbleUsername
+#    - name: RSS
+#      link: /feed.xml
 
 # Build settings
 markdown: kramdown
