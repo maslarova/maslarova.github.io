@@ -8,9 +8,6 @@ profile_picture:
    <div class="image">
       <img src="foto.jpg" alt="alt">
       </div>
-      <div class="text">
-        <h1> Welcome! My name is Dominika Maslarova. I am a PhD student of Physical Engineering at the Faculty of Nuclear Sciences and Physical Engineering. I have been simultaneously working as a researcher at the Institute of Plasma Physics of Czech Academy of Sciences. My research interests include laser-driven plasma-based particle accelerators and radiation sources. I have experience with performing kinetic numerical simulations on large-scale HPC supercomputers. </h1>
-      </div>
     </div>
 <p>
  Welcome! My name is Dominika Maslarova. I am a PhD student of Physical Engineering at the Faculty of Nuclear Sciences and Physical Engineering.
