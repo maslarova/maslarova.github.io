@@ -11,23 +11,23 @@ google_analytics: "UA-121636368-3"
 
 header:
   pages:
-    - name: Home
-      slug: /
-    - name: Numerické metody (teaching classes at FNSPE CTU)
+#    - name: Home
+#      slug: /
+#    - name: Numerické metody (teaching classes at FNSPE CTU)
 #    - name: Blog
 
 footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: yourmail@domain.com
+      value: maslarova@ipp.cas.cz
       link: mailto:maslarova@ipp.cas.cz
 #    - name: WeChat
 #      value: YourWeChatUsername
 #      link: "#"
   follow:
     - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
+      link: http://twitter.com/dominikaMasli
       username: "@dominikaMasli"
 #    - name: Facebook
 #      link: http://facebook.com/YourFacebookUsername
@@ -35,7 +35,7 @@ footer:
       link: https://www.linkedin.com/in/dominika-maslarova-6b5257257/
     - name: GitHub
       link: http://maslarova
-    - name: Dribbble
+#    - name: Dribbble
 #      link: https://dribbble.com/YourDribbbleUsername
 #    - name: RSS
 #      link: /feed.xml

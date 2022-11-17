@@ -1,14 +1,51 @@
 ---
 layout: home
 profile_picture:
-  src: /assets/img/profile-pic.jpg
+  src: fot_EPP.jpg
   alt: website picture
 ---
 
 <p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
+ Welcome! My name is Dominika Maslarova. I am a PhD student of Physical Engineering at the Faculty of Nuclear Sciences and Physical Engineering.
+I have been simultaneously working as a researcher at the Institute of Plasma Physics of Czech Academy of Sciences.
+My research interests include laser-driven plasma-based particle accelerators and radiation sources. I have experience with performing kinetic numerical simulations on large-scale HPC supercomputers.
+
+ 
+#This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
 </p>
 
+Research highlights:
+  - title: Creation and generation with next-generation multi-PW laser pulses
+    image:
+      src: /assets/img/work/water.png
+      alt: water
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco lab>
+  - title: Kick the electrons at the plasma grid
+    image:
+      src: /assets/img/work/sand.png
+      alt: sand
+    description: Lorem ipsum dolor sit amet,
+  - title: Let electrons wiggle more
+
+  - title: Trap them with an unconventional laser pulse
+
+
+Current employers:
+  - title: Institute of Plasma Physics of Czech Academy of Sciences
+    image:
+      src: /assets/img/work/water.png
+      alt: water
+    description:
+  - title: Faculty of Nuclear Sciences and Physical Engineering of Czech Technical University in Prague
+    image:
+      src: /assets/img/work/sand.png
+      alt: sand
+    description:
+
+
+
+
+
 <p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
+#  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
 </p>
