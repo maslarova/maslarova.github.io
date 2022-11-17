@@ -22,27 +22,28 @@ Research highlights:
       src: /assets/img/work/water.png
       alt: water
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco lab>
-  - title: Kick the electrons at the plasma grid
+  - Kick the electrons at the plasma grid
     image:
       src: /assets/img/work/sand.png
       alt: sand
     description: Lorem ipsum dolor sit amet,
-  - title: Let electrons wiggle more
+  - Let electrons wiggle more
 
-  - title: Trap them with an unconventional laser pulse
+  -  Trap them with an unconventional laser pulse
 
+<p>
 
 Current employers:
-  - title: Institute of Plasma Physics of Czech Academy of Sciences
+  - Institute of Plasma Physics of Czech Academy of Sciences
     image:
       src: /assets/img/work/water.png
       alt: water
-    description:
+    description: since 2017
   - title: Faculty of Nuclear Sciences and Physical Engineering of Czech Technical University in Prague
     image:
       src: /assets/img/work/sand.png
       alt: sand
-    description:
+    description: since 2018
 
 
 
