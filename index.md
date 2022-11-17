@@ -12,7 +12,7 @@ profile_picture:
 <p>
 
 <p float="right">
-  <img src="/foto.jpg.png" />
+  <img src="foto.jpg" />
 </p>
 
 
