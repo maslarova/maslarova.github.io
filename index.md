@@ -19,13 +19,11 @@ Research highlights:
   - <b>Creation and generation with next-generation multi-PW laser pulses</b>
   - Kick the electrons at the plasma grid
   - Let electrons wiggle more
-
   - Trap electrons with an unconventional laser pulse
 
 <p>
 
 Current employers:
   - Institute of Plasma Physics of Czech Academy of Sciences since 2017
-
   - title: Faculty of Nuclear Sciences and Physical Engineering of Czech Technical University in Prague
 
