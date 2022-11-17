@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: "/foto.jpg"
+  src: "foto.jpg"
   alt: website picture
 ---
 <div class="container">
