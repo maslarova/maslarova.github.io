@@ -16,39 +16,16 @@ My research interests include laser-driven plasma-based particle accelerators an
 </p>
 
 Research highlights:
-  - title: <b>Creation and generation with next-generation multi-PW laser pulses</b>
-
-    image:
-      src: /assets/img/work/water.png
-      alt: water
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco lab>
+  - <b>Creation and generation with next-generation multi-PW laser pulses</b>
   - Kick the electrons at the plasma grid
-    image:
-      src: /assets/img/work/sand.png
-      alt: sand
-    description: Lorem ipsum dolor sit amet,
   - Let electrons wiggle more
 
-  -  Trap them with an unconventional laser pulse
+  - Trap electrons with an unconventional laser pulse
 
 <p>
 
 Current employers:
-  - Institute of Plasma Physics of Czech Academy of Sciences
-    image:
-      src: /assets/img/work/water.png
-      alt: water
-    description: since 2017
+  - Institute of Plasma Physics of Czech Academy of Sciences since 2017
+
   - title: Faculty of Nuclear Sciences and Physical Engineering of Czech Technical University in Prague
-    image:
-      src: /assets/img/work/sand.png
-      alt: sand
-    description: since 2018
 
-
-
-
-
-<p>
-#  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
-</p>
