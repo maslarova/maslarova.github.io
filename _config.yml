@@ -1,62 +1,38 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: Dominika Maslarova
-description: >- # this means to ignore newlines until "baseurl:"
-  Bay is a minimal Jekyll Theme.
-og_image: ./fot_EPP.jpg
-google_analytics: "UA-121636368-3"
-
-header:
-  pages:
-#    - name: Home
-#      slug: /
-#    - name: Numerické metody (teaching classes at FNSPE CTU)
-#    - name: Blog
-
-footer:
-  show_powered_by: true
-  contact:
-    - name: Email
-      value: maslarova@ipp.cas.cz
-      link: mailto:maslarova@ipp.cas.cz
-#    - name: WeChat
-#      value: YourWeChatUsername
-#      link: "#"
-  follow:
-    - name: Twitter
-      link: http://twitter.com/dominikaMasli
-      username: "@dominikaMasli"
-#    - name: Facebook
-#      link: http://facebook.com/YourFacebookUsername
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/dominika-maslarova-6b5257257/
-    - name: GitHub
-      link: https://github.com/maslarova
-#    - name: Dribbble
-#      link: https://dribbble.com/YourDribbbleUsername
-#    - name: RSS
-#      link: /feed.xml
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Numerické metody
+email: 
+description: Na tejto stránke nájdete materiály pre cvičenia z predmetu Numerické metody v letnom semestri 2020/2021 na FJFI ČVUT v Praze.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
-sass:
-    style: :compressed
+theme: minima
 plugins:
   - jekyll-feed
 
-# Excluded items
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - feed.xml
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-# Used for defeating caching
-version: 1
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
