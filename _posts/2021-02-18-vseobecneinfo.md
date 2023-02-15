@@ -1,8 +1,12 @@
 ---
 layout: post
 title:  "Všeobecné informácie ku cvičeniam"
-date:   2021-02-17 13:26:13 +0100
+date:   2023-02-15 00:26:13 +0100
 ---
+- Skupina 16.2.2023
+- Skupina 16.2.2023
+
+<!--
 <b>Podmienky na splnenie zápočtu<b/> <br>
 
 - Posledný týždeň v semestri bude kontrola dochádzkových úloh. <br>
@@ -24,7 +28,7 @@ date:   2021-02-17 13:26:13 +0100
 - Programovať sa bude v Matlabe, ak však chcete použiť iný jazyk (napr. Python) pri odovzdávaní úloh, nemáme s tým problém, len nám o tom napíšte v prvý týždeň, aby sme mali prehľad. 
 - Väčšina materiálov bude na webových stránkach maslarova.github.io a babjarob.github.io, ale vždy sa na to odkážeme na nástenke v MS Teams. 
 - Zápočtové úlohy môžu byť mierne náročnejšie než tie dochádzkové, odporúčame teda priebežne plniť dochádzkové úlohy.
-
+-->
 
 
 
