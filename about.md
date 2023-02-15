@@ -28,8 +28,9 @@ permalink: /kontakt2/
 Ústav fyziky plazmatu AV ČR, v. v. i. <br />Za Slovankou 1782/3 <br />
 182 00 Praha 8 <br />
 -->
-dominika.mas<!-- sdfjsdhfkjydjoK59@s -->larova<!-- 49928Lk@:s -->@<!-- sdfjsdhfkjypcs -->fjfi.c<!-- sdfjsdhfkjypcs -->vut.cz
-</b>
+
+<b>Dominika Mašlárová</br>
+dominika.mas<!-- sdfjsdhfkjydjoK59@s -->larova<!-- 49928Lk@:s -->@<!-- sdfjsdhfkjypcs -->fjfi.c<!-- sdfjsdhfkjypcs -->vut.cz</br> </b>
 FJFI ČVUT v Praze <br />
 V Holešovičkách 747/2, <br />
 180 00 Praha 8-Libeň <br />
