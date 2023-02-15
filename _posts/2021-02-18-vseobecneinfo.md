@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Všeobecné informácie ku cvičeniam"
+title:  "Informácie ku cvičeniam"
 date:   2023-02-15 00:26:13 +0100
 ---
-- Skupina 16.2.2023
-- Skupina 16.2.2023
+- Skupina <b>ČTVRTEK 8:00</b> [>>>CLICK HERE<<<](http://maslarova.github.io/cvicenie1/skup8NME.pdf)
+- Skupina <b>ČTVRTEK 8:00</b> [>>>CLICK HERE<<<](http://maslarova.github.io/obecne/skup10NME.pdf)
 
 <!--
 <b>Podmienky na splnenie zápočtu<b/> <br>
