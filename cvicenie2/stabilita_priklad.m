@@ -1,6 +1,6 @@
 T          = 10;          % Dlzka casoveho useku
 h          = 0.3;         % konecny casovy krok h (nahrada dt)
-N          = round(T/dt); % Pocet krokov: Celkovy cas/dlzka kroku
+N          = round(T/h); % Pocet krokov: Celkovy cas/dlzka kroku
 			  % Zaokruhlene s "round" pre pripad, ze by N nebolo cele cislo
 
 % Predalokacia vektorov pre rychlost
