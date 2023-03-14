@@ -31,7 +31,7 @@ permalink: /kontakt2/
 <b>Dominika Mašlárová<br />
 mas<!-- sdfjsdhfkjydjoK59@s -->larova<!-- 49928Lk@:s -->@<!-- sdfjsdhfkjypcs -->ipp.c<!-- sdfjsdhfkjypcs -->as.cz<br /> </b>
 <!--
-dominika.mas--><!-- sdfjsdhfkjydjoK59@s -->larova<!-- 49928Lk@:s -->@<!-- sdfjsdhfkjypcs -->fjfi.c<!-- sdfjsdhfkjypcs vut.cz<br /> </b>
+dominika.mas--><!-- sdfjsdhfkjydjoK59@s larova 49928Lk@:s @- sdfjsdhfkjypcs fjfi.c--><!-- sdfjsdhfkjypcs vut.cz<br /> </b>
 -->
 
 FJFI ČVUT v Praze <br />
