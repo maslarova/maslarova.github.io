@@ -3,8 +3,8 @@ layout: post
 title:  "Informácie ku cvičeniam"
 date:   2023-02-15 00:26:13 +0100
 ---
-- Skupina <b>ČTVRTEK 8:00 T-105</b> [>>CLICK HERE<<](http://maslarova.github.io/obecne/skup8NME.pdf)
-- Skupina <b>ČTVRTEK 10:00 T-105</b> [>>CLICK HERE<<](http://maslarova.github.io/obecne/skup10NME.pdf)
+- Skupina <b>ČTVRTEK 8:00 T-105</b> [>>CLICK HERE<<](http://maslarova.github.io/obecne/skupina8NME.pdf)
+- Skupina <b>ČTVRTEK 10:00 T-105</b> [>>CLICK HERE<<](http://maslarova.github.io/obecne/skupina10NME.pdf)
 
 <!--
 <b>Podmienky na splnenie zápočtu<b/> <br>
