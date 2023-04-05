@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "6. cvičenie 3.4.2020"
+date:   2020-03-31 13:26:13 +0100
+---
+
+Vašou úlohou bude nájsť aproximáciu funkcie zadanú bodmi $(x_i,y_i)$, kde $i\in$ {$0,1,..25$}, pomocou metódy najmenších štvorcov. Dáta dostanete v súbore data_exp.txt Hodnoty $x_i$  sú v prvom stĺpci, hodnoty $y_i$ sú v druhom stĺpci.
+
+Hodnoty aproximujte funkciou
+
+{: .centering}
+$f(x) = B A^{x}$.
+
+V tomto prípade vystupuje premenná $x$ ako exponent, $A$ a $B$ sú reálne koeficienty, ktoré hľadáme. Otázkou je, ako z tejto funkcie zostrojiť vhodnú funkciu pre minimalizáciu. Vhodným prístupom je zlogaritmovať obe strany: 
+
+{: .centering}
+$\mathrm{ln}~f =\mathrm{ln} (B\cdot A^{x})=\mathrm{ln}~B + \mathrm{ln}~A^{x} = \mathrm{ln}~B+ x \mathrm{ln}  A$
+
+Priraďme $b:= \mathrm{ln}~B$ a  $a:= \mathrm{ln}~A$. Tým si vzorec uľahčíme a budeme minimalizovať funkciu s koeficientami $a$ a $b$. Koeficienty $A$ a $B$ potom môžeme dopočítať z $A= e^a$ a $B = e^b$.
+Dostávame 
+
+{: .centering}
+$\mathrm{ln}~f =b + ax$
+
+Budeme teda hľadať minimum funkcie
+
+{: .centering}
+$S_1 = \sum_{i=0}^{25} (\mathrm{ln}~y_i - b - a x_i )^2$.
+
+Minimalizačnú funkciu síce máme, treba si však uvedomiť jednu vec. Vo vzorci vystupuje výraz $\mathrm{ln}~y_i$. Pôvodne sme mali však minimalizovať výraz s $y_i$. To vedie k nepresnejšiemu výsledku, lebo logaritmus vysokých hodnôt bude tieto hodnoty veľmi podceňovať. Vezmime si napr. body $y_0=3$ $y_{25} = 2022$. Ich prirodzené logaritmy sú približne 1,1 a 7,6, pre $y_{25}$ je to teda veľké podcenenie. Výsledok však môžeme spresniť voľbou vhodných váh. Ako váhy môžeme zvoliť samotné $y_i$:  
+
+{: .centering}
+$S_2 = \sum_{i=0}^{25} (y_i \cdot (\mathrm{ln}~y_i - b - a x_i )^2)$
+
+Vašou úlohou bude:
+- Odvodte sústavu lineárnych rovníc pre koeficienty $a$ a $b$. Sústavu získate hľadaním minima funkcie $S_1$ a funkcie $S_2$ v $a$, $b$.
+- Implementujte túto metódu v Matlabe (príp. inom jazyku). Nepoužívajte pritom na naimplementovanú metódu v Matlabe (fit). Musíte teda do Matlabu napísať maticu, ktorá rieši lineárnu sústavu pre koeficienty $a$, $b$. Na riešenie sústav môzete potom použiť príkaz [mldivide](https://www.mathworks.com/help/matlab/ref/mldivide.html). Riešenie sústavy lineárnych rovníc teda nemusíte sami implementovať.
+- Aplikujte Váš program na dáta $x_i$ a $y_i$. Vykreslite do jedného grafu body $(x_i,y_i)$, aproximáciu získanú funkciou $S_1$ a aproximáciu získanú funkciou $S_2$. Tieto aproximácie teda pre body $(x_i,y_i)$ v grafe porovnajte.
+- Pošlite mi do MS Teams odvodenie sústavy lineárnych rovníc (výpočet na papieri, Latex,.. ) + program.
+- Pomocou príkazov fit a fittype v Matlabe si vo Vašom grafe porovnajte Vašu implementáciu s metódou naimplementovanou v Matlabe.
+
+
+Ďalšie užitočné príkazy v Matlabe:  log, sum - príkaz, ktorý sčíta všetky prvky vektoru, napr. sum(Z)=6 pre Z = [1,2,3], pretože 1+2+3=6, legend - legenda ku grafu 
